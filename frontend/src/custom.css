@@ -1,0 +1,126 @@
+.sportsbook iframe {
+    height: calc(100% - 1px);
+}
+
+.PhoneInput input:focus-visible {
+    outline: 0;
+}
+
+.PhoneInput input {
+    border: 0;
+}
+
+.acc-tp-casino-detail .form-select {
+    width: auto;
+    display: inline-block;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    margin-right: 5px;
+}
+
+.login-auth-box {
+    width: 500px;
+    max-width: 90%;
+}
+
+.login-auth input {
+    padding: 10px;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.login-auth>div {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+ 
+#floater {
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    width: 50px;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 10001;
+    border-radius: 3px 0 0 3px;
+    padding: 0px;
+    box-shadow: rgb(255 255 255 / 98%) -5px 0px 10px -5px;
+    /* background-color: #41a6d9; */
+    /* color: white; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#floater img {
+    width: 50px;
+    height: 50px;
+}
+
+.modal-18plus img {
+    height: 30px;
+}
+
+.login-page {
+    justify-content: flex-start;
+}
+
+.login-box {
+    margin: 2% 0;
+}
+
+.footer.footer-login {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.username-text .success-form,
+.phonenumber-text .success-form {
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .login-auth input {
+        padding: 10px;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .sportsbook .slot-iframe.show {
+        top: 85px;
+        height: calc(100vh - 85px);
+    }
+
+    .login-box img {
+        max-height: 70px;
+    }
+
+    .social-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .social-icon img {
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ball-by-ball .market-6 .market-nation-detail {
+        width: calc(100% - 160px);
+    }
+
+    .ball-by-ball .fancy-min-max-box {
+        width: 80px;
+    }
+}
+/* a {
+    color: #0d6efd;
+    text-decoration: underline;
+} */
