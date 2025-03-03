@@ -1,88 +1,13 @@
 import React from 'react';
-import { useLocation } from "react-router-dom";
-import RightMenu from '../../Components/Right_menu';
+
 
 const MatchDetails = () => {
-    const location = useLocation();
-    const match = location.state?.match; // 👈 Retrieving data
-
-    if (!match) {
-        return <p>No match data available.</p>;
-    }
 
     return (
-        <div className=' w-full max-w-screen overflow-x-hidden'>
-            <div className='flex justify-between  font-roboto '>
-                <div className='flex-1 border'>
-                    <div className='bg-[#2c3e50] h-[32px] text-white font-bold'>
-                        <div className='mx-[10px] flex justify-between mt-[40px]'>
-                            <p className=' text-[15px] mt-[5px]'>{match.matchName.toUpperCase()}  </p>    {/* 👈 Convert to uppercase */}
-                            <div className='flex'> <p className='text-[15px] mr-[0.5px] mt-[5px]'>{match.date}</p>
-                                <p className='text-[15px] mr-[0.5px] mt-[5px]'>{match.time}</p></div>
-
-                        </div>
-                    </div>
-
-                    <div>
-                        <div className='bg-[#4A5A69] mt-[8px] h-[33px] text-white font-bold'>
-                            <div className='mx-[10px] flex justify-between'>
-                                <p className=' text-[15px] mt-[5.8px]'>MATCH_ODDS </p>
-                            </div>
-                        </div>
-                        <div className=' grid grid-cols-2 gap-[24px] bg-[#F6F6F6]'>
-                            <div className='h-[28px]  cursor-pointer '>
-                                <p className='text-[12px] m-[5px] font-bold text-[#097C93]'>Max: 1.00</p>
-                            </div>
-                            <div className='h-[28px] flex cursor-pointer font-bold text-[#333333]  ' style={{ letterSpacing: "0.005em" }}>
-
-                                <div className=' bg-[#72BBEF] ml-[112px] flex '>
-                                    <div className="w-[0.5px] h-full bg-[#CCCCCC]"></div>
-                                    <h1 className='my-[2px] w-[54.1px] text-center ml-[-0.3px]'>Back</h1>
-                                </div>
-                                <div className="w-[0.5px] h-full bg-[#CCCCCC]"></div>
-                                <div className=' bg-[#FAA9BA]     '>
-                                    <h1 className='my-[2px] w-[55px] text-center'>Lay</h1>
-                                </div>
-                                <div className="w-[0.5px] h-full bg-[#CCCCCC]"></div>
-                            </div>
-
-                        </div>
-                        <hr className="border-t-1 border-[#CCCCCC] " />
-                        <div className='grid grid-cols-2 gap-[28.7px] h-[44px]  bg-[#F2F2F2] text-[#333333] '>
-                            <div className=''>Sri Lanka</div>
-
-                            <div className=' cursor-pointer grid grid-cols-6  '>
-
-                                <div className=' bg-[#B2D6F0] border-[#CCCCCC]  border-r-[1px] border-l text-center ml-[-0.8px]'>
-                                    <p className='mt-[2.5px] font-bold'>3.2</p>
-                                    <p className=' font-thin text-[12px] mt-[-4px]' style={{ fontWeight: "" }}>203.59</p>
-                                </div>
-                                <div className=' bg-[#92C9F0] border-[#CCCCCC]   border-r  '></div>
-                                <div className=' bg-[#72BBEF]  border-[#CCCCCC]  border-r  '></div>
-                                <div className=' bg-[#FAA9BA] border-[#CCCCCC]   border-r  '></div>
-                                <div className=' bg-[#F8BCC8] border-[#CCCCCC]   border-r  '></div>
-                                <div className=' bg-[#F6CDD6] border-[#CCCCCC]   border-r  '></div>
-                            </div>
-
-                        </div>
-                        <hr className="border-t-1 border-[#CCCCCC] " />
-                        <div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-                {/* Right Menu */}
-                <div className='bg-[#2c3e50] h-[500px]  desktop:w-[450px] '>my ber</div>
-
-            </div>
-
-
-
-        </div >
+        <><div className="center-main-container detail-page">
+            <div class="center-container"><div class="detail-page-container"><a class="bet-nation-game-name blink-message" href="/casino/3cardj"><i class="fas fa-info-circle me-1"></i><div>3 Cards Judgement</div></a><div class="game-header"><span>ICC Champions Trophy</span><span class="float-right">19/02/2025 14:30:00</span></div><ul class="nav nav-tabs d-xl-none menu-tabs"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab">Odds</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab">Matched Bet (0)</a></li></ul><div class="game-market market-4 "><div class="market-title"><span>TOURNAMENT_WINNER</span></div><div class="market-header"><div class="market-nation-detail"><span class="market-nation-name">Max: 1.00</span></div><div class="market-odd-box no-border d-none d-md-block"></div><div class="market-odd-box no-border d-none d-md-block"></div><div class="market-odd-box back"><b>Back</b></div><div class="market-odd-box lay"><b>Lay</b></div><div class="market-odd-box"></div><div class="market-odd-box no-border"></div></div><div class="market-body " data-title="OPEN"><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">India</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">2.32</span><span class="market-volume">2411.69</span></div><div class="market-odd-box  back1  "><span class="market-odd">2.34</span><span class="market-volume">2350.43</span></div><div class="market-odd-box back   "><span class="market-odd">2.36</span><span class="market-volume">2519.11</span></div><div class="market-odd-box lay   "><span class="market-odd">2.38</span><span class="market-volume">470.94</span></div><div class="market-odd-box  lay1  "><span class="market-odd">2.4</span><span class="market-volume">333.45</span></div><div class="market-odd-box   lay2 "><span class="market-odd">2.42</span><span class="market-volume">2364.02</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">Australia</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">4.3</span><span class="market-volume">1350.05</span></div><div class="market-odd-box  back1  "><span class="market-odd">4.4</span><span class="market-volume">1330</span></div><div class="market-odd-box back   "><span class="market-odd">4.5</span><span class="market-volume">2546.08</span></div><div class="market-odd-box lay   "><span class="market-odd">4.6</span><span class="market-volume">3201.91</span></div><div class="market-odd-box  lay1  "><span class="market-odd">4.7</span><span class="market-volume">1232.19</span></div><div class="market-odd-box   lay2 "><span class="market-odd">4.8</span><span class="market-volume">1017.87</span></div></div><div class="market-row suspended-row" data-title="LOSER"><div class="market-nation-detail"><span class="market-nation-name">England</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">-</span></div><div class="market-odd-box  back1  "><span class="market-odd">-</span></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div><div class="market-odd-box  lay1  "><span class="market-odd">-</span></div><div class="market-odd-box   lay2 "><span class="market-odd">-</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">South Africa</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">4.7</span><span class="market-volume">1109.06</span></div><div class="market-odd-box  back1  "><span class="market-odd">4.8</span><span class="market-volume">1200.83</span></div><div class="market-odd-box back   "><span class="market-odd">4.9</span><span class="market-volume">1483.59</span></div><div class="market-odd-box lay   "><span class="market-odd">5</span><span class="market-volume">1734.84</span></div><div class="market-odd-box  lay1  "><span class="market-odd">5.1</span><span class="market-volume">5580.62</span></div><div class="market-odd-box   lay2 "><span class="market-odd">5.2</span><span class="market-volume">1067.69</span></div></div><div class="market-row suspended-row" data-title="LOSER"><div class="market-nation-detail"><span class="market-nation-name">Pakistan</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">-</span></div><div class="market-odd-box  back1  "><span class="market-odd">-</span></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div><div class="market-odd-box  lay1  "><span class="market-odd">-</span></div><div class="market-odd-box   lay2 "><span class="market-odd">-</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">New Zealand</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">5.9</span><span class="market-volume">1099.2</span></div><div class="market-odd-box  back1  "><span class="market-odd">6</span><span class="market-volume">5180.84</span></div><div class="market-odd-box back   "><span class="market-odd">6.2</span><span class="market-volume">4249.44</span></div><div class="market-odd-box lay   "><span class="market-odd">6.4</span><span class="market-volume">938.6</span></div><div class="market-odd-box  lay1  "><span class="market-odd">6.6</span><span class="market-volume">903.33</span></div><div class="market-odd-box   lay2 "><span class="market-odd">6.8</span><span class="market-volume">848.82</span></div></div><div class="market-row suspended-row" data-title="LOSER"><div class="market-nation-detail"><span class="market-nation-name">Afghanistan</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">-</span></div><div class="market-odd-box  back1  "><span class="market-odd">-</span></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div><div class="market-odd-box  lay1  "><span class="market-odd">-</span></div><div class="market-odd-box   lay2 "><span class="market-odd">-</span></div></div><div class="market-row suspended-row" data-title="LOSER"><div class="market-nation-detail"><span class="market-nation-name">Bangladesh</span><div class="market-nation-book"></div></div><div class="market-odd-box   back2 "><span class="market-odd">-</span></div><div class="market-odd-box  back1  "><span class="market-odd">-</span></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div><div class="market-odd-box  lay1  "><span class="market-odd">-</span></div><div class="market-odd-box   lay2 "><span class="market-odd">-</span></div></div></div></div><div class="game-market market-2 "><div class="market-title"><span>ICC Champions Trophy Cup</span></div><div class="market-header"><div class="market-nation-detail"><span class="market-nation-name">Min: 100&nbsp; Max: 50K</span></div><div class="market-odd-box back"><b>Back</b></div><div class="market-odd-box lay"><b>Lay</b></div></div><div class="market-body " data-title="SUSPENDED"><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">India</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">130</span><span class="market-volume">50000</span></div><div class="market-odd-box lay   "><span class="market-odd">140</span><span class="market-volume">50000</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">Australia</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">350</span><span class="market-volume">50000</span></div><div class="market-odd-box lay   "><span class="market-odd">400</span><span class="market-volume">50000</span></div></div><div class="market-row suspended-row" data-title="SUSPENDED"><div class="market-nation-detail"><span class="market-nation-name">England</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">South Africa</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">350</span><span class="market-volume">50000</span></div><div class="market-odd-box lay   "><span class="market-odd">390</span><span class="market-volume">50000</span></div></div><div class="market-row suspended-row" data-title="SUSPENDED"><div class="market-nation-detail"><span class="market-nation-name">Pakistan</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div></div><div class="market-row " data-title="ACTIVE"><div class="market-nation-detail"><span class="market-nation-name">New Zealand</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">480</span><span class="market-volume">50000</span></div><div class="market-odd-box lay   "><span class="market-odd">530</span><span class="market-volume">50000</span></div></div><div class="market-row suspended-row" data-title="SUSPENDED"><div class="market-nation-detail"><span class="market-nation-name">Afghanistan</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div></div><div class="market-row suspended-row" data-title="SUSPENDED"><div class="market-nation-detail"><span class="market-nation-name">Bangladesh</span><div class="market-nation-book"></div></div><div class="market-odd-box back   "><span class="market-odd">-</span></div><div class="market-odd-box lay   "><span class="market-odd">-</span></div></div></div><div class="market-row"><p class="market-remark">Womens Premier League 2025 Cup Winner Bet Started In Our Exchange</p></div></div></div></div>
+            <div class="sidebar right-sidebar"><a class="bet-nation-game-name blink-message" href="/casino/3cardj"><i class="fas fa-info-circle me-1"></i><div>3 Cards Judgement</div></a><div class="sidebar-box my-bet-container"><div class="sidebar-title"><h4>My Bet</h4></div><div class="my-bets"><div class="table-responsive w-100"><table class="table"><thead><tr><th>Matched Bet</th><th class="text-end">Odds</th><th class="text-end">Stake</th></tr></thead><tbody></tbody></table></div></div></div></div></div>
+        </>
     );
 }
 

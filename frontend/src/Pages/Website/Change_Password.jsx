@@ -142,88 +142,92 @@ const ChangePassword = () => {
 
 
     return (
-        <>{/* Animated Notification */}
-            {showNotification && (
-                <div
-                    className="go4109123758"
-                    style={{
-                        left: "0px",
-                        right: "0px",
-                        display: "flex",
-                        position: "absolute",
-                        transition: "230ms cubic-bezier(0.21, 1.02, 0.73, 1)",
-                        transform: "translateY(0px)",
-                        top: "16px",
-                        justifyContent: "center"
-                    }}
-                >
-                    <div
-                        className="go2072408551"
-                        style={{
-                            animation: `0.35s cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards running ${isReversing ? 'goOut3223188581' : 'go3223188581'
-                                }  `,
-                        }}
-                    >
-                        <div className="go685806154">
-                            <div className="go1858758034"></div>
-                            <div className="go1579819456">
-                                <div className={showNotification === 'Password change successfully'
-                                    ? ' go2344853693'
-                                    : 'go2534082608 '}>
-                                </div>
+        <>
+            <div className="center-main-container report-page">
+                <div className="center-container">{/* Animated Notification */}
+                    {showNotification && (
+                        <div
+                            className="go4109123758"
+                            style={{
+                                left: "0px",
+                                right: "0px",
+                                display: "flex",
+                                position: "absolute",
+                                transition: "230ms cubic-bezier(0.21, 1.02, 0.73, 1)",
+                                transform: "translateY(0px)",
+                                top: "16px",
+                                justifyContent: "center"
+                            }}
+                        >
+                            <div
+                                className="go2072408551"
+                                style={{
+                                    animation: `0.35s cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards running ${isReversing ? 'goOut3223188581' : 'go3223188581'
+                                        }  `,
+                                }}
+                            >
+                                <div className="go685806154">
+                                    <div className="go1858758034"></div>
+                                    <div className="go1579819456">
+                                        <div className={showNotification === 'Password change successfully'
+                                            ? ' go2344853693'
+                                            : 'go2534082608 '}>
+                                        </div>
 
+                                    </div>
+                                </div>
+                                <div role="status" aria-live="polite" className="go3958317564">
+                                    {showNotification}
+                                </div>
                             </div>
                         </div>
-                        <div role="status" aria-live="polite" className="go3958317564">
-                            {showNotification}
+                    )}
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Change Password</h4>
                         </div>
-                    </div>
-                </div>
-            )}
+                        <div class="card-body">
+                            <div class="report-form">
+                                <form class="" onSubmit={handleSubmit}>
+                                    <div class="row row10">
+                                        <div class="mb-3 position-relative col-md-6">
+                                            <label class="form-label">Current Password:</label>
+                                            <input name="password" type="password" class="form-control" placeholder="Enter Current password" value={formData.password}
+                                                onChange={handleInputChange} />
+                                            {isSubmitted && errors.password && <p className="error-form">{errors.password}</p>}
 
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Change Password</h4>
-                </div>
-                <div class="card-body">
-                    <div class="report-form">
-                        <form class="" onSubmit={handleSubmit}>
-                            <div class="row row10">
-                                <div class="mb-3 position-relative col-md-6">
-                                    <label class="form-label">Current Password:</label>
-                                    <input name="password" type="password" class="form-control" placeholder="Enter Current password" value={formData.password}
-                                        onChange={handleInputChange} />
-                                    {isSubmitted && errors.password && <p className="error-form">{errors.password}</p>}
+                                        </div>
+                                    </div>
+                                    <div class="row row10">
+                                        <div class="mb-3 position-relative col-md-6">
+                                            <label class="form-label">New Password:</label>
+                                            <input name="newPassword" type="password" class="form-control" placeholder="Enter New Password" value={formData.newPassword}
+                                                onChange={handleInputChange}
 
-                                </div>
+                                            />
+                                            {isSubmitted && errors.newPassword && <p className="error-form">{errors.newPassword}</p>}
+
+
+                                        </div>
+                                    </div>
+                                    <div class="row row10">
+                                        <div class="mb-4 position-relative col-md-6">
+                                            <label class="form-label">Confirm Password:</label>
+                                            <input name="newPasswordConfirm" type="password" class="form-control" placeholder="Confirm New Password" value={formData.newPasswordConfirm}
+                                                onChange={handleInputChange} />
+                                            {isSubmitted && errors.newPasswordConfirm && <p className="error-form">{errors.newPasswordConfirm}</p>}
+
+                                        </div>
+                                    </div>
+                                    <div class="row row10">
+                                        <div class="mb-3 col-md-6">
+                                            <button type="submit" class="btn btn-primary btn-block w-100">Change Password</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="row row10">
-                                <div class="mb-3 position-relative col-md-6">
-                                    <label class="form-label">New Password:</label>
-                                    <input name="newPassword" type="password" class="form-control" placeholder="Enter New Password" value={formData.newPassword}
-                                        onChange={handleInputChange}
-
-                                    />
-                                    {isSubmitted && errors.newPassword && <p className="error-form">{errors.newPassword}</p>}
-
-
-                                </div>
-                            </div>
-                            <div class="row row10">
-                                <div class="mb-4 position-relative col-md-6">
-                                    <label class="form-label">Confirm Password:</label>
-                                    <input name="newPasswordConfirm" type="password" class="form-control" placeholder="Confirm New Password" value={formData.newPasswordConfirm}
-                                        onChange={handleInputChange} />
-                                    {isSubmitted && errors.newPasswordConfirm && <p className="error-form">{errors.newPasswordConfirm}</p>}
-
-                                </div>
-                            </div>
-                            <div class="row row10">
-                                <div class="mb-3 col-md-6">
-                                    <button type="submit" class="btn btn-primary btn-block w-100">Change Password</button>
-                                </div>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

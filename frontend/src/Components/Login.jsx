@@ -46,6 +46,16 @@ const Login = () => {
         }));
     };
 
+    const handleDemoLogin = () => {
+        sessionStorage.setItem("isAuthenticated", "true");
+
+        // Generate a unique session ID only during login
+        const uniqueSessionId = Date.now().toString();
+        localStorage.setItem("sessionId", uniqueSessionId);
+
+        window.location.href = "/home"; // Navigate to the home page
+    };
+
     return (
         <div class="login-page">
             <div class="login-box">
@@ -84,7 +94,7 @@ const Login = () => {
                         </div>
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary btn-block" >Login <i class="fas fa-sign-in-alt float-end mt-1"></i></button>
-                            <button type="button" class="btn btn-primary btn-block mt-2" onClick={handleLogin}>Login with demo ID<i class="fas fa-sign-in-alt float-end mt-1"></i></button>
+                            <button type="button" class="btn btn-primary btn-block mt-2" onClick={handleDemoLogin}>Login with demo ID<i class="fas fa-sign-in-alt float-end mt-1"></i></button>
                         </div>
                         <small class="recaptchaTerms mt-1">This site is protected by reCAPTCHA and the Google
                             <a href="https://policies.google.com/privacy">Privacy Policy</a> and<a href="https://policies.google.com/terms">Terms of Service</a> apply.</small>

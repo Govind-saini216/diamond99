@@ -82,189 +82,191 @@ const ActivityLogs = () => {
     console.log(selectedType);
 
     return (
-        <>
-            {/* Animated Notification */}
-            {showNotification && (
-                <div
-                    className="go4109123758"
-                    style={{
-                        left: "0px",
-                        right: "0px",
-                        display: "flex",
-                        position: "absolute",
-                        transition: "230ms cubic-bezier(0.21, 1.02, 0.73, 1)",
-                        transform: "translateY(0px)",
-                        top: "16px",
-                        justifyContent: "center"
-                    }}
-                >
+        <> <div className="center-main-container report-page">
+            <div className="center-container">
+                {/* Animated Notification */}
+                {showNotification && (
                     <div
-                        className="go2072408551"
+                        className="go4109123758"
                         style={{
-                            animation: `0.35s cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards running ${isReversing ? 'goOut3223188581' : 'go3223188581'
-                                }  `,
+                            left: "0px",
+                            right: "0px",
+                            display: "flex",
+                            position: "absolute",
+                            transition: "230ms cubic-bezier(0.21, 1.02, 0.73, 1)",
+                            transform: "translateY(0px)",
+                            top: "16px",
+                            justifyContent: "center"
                         }}
                     >
-                        <div className="go685806154">
-                            <div className="go1858758034"></div>
-                            <div className="go1579819456">
-                                <div className="go2534082608"></div>
+                        <div
+                            className="go2072408551"
+                            style={{
+                                animation: `0.35s cubic-bezier(0.21, 1.02, 0.73, 1) 0s 1 normal forwards running ${isReversing ? 'goOut3223188581' : 'go3223188581'
+                                    }  `,
+                            }}
+                        >
+                            <div className="go685806154">
+                                <div className="go1858758034"></div>
+                                <div className="go1579819456">
+                                    <div className="go2534082608"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div role="status" aria-live="polite" className="go3958317564">
-                            Select Log Type !
+                            <div role="status" aria-live="polite" className="go3958317564">
+                                Select Log Type !
+                            </div>
                         </div>
                     </div>
-                </div>
-            )}
+                )}
 
-            <div className="card">
-                <div className="card-header">
-                    <h4 className="card-title">Activity Log</h4>
-                </div>
-                <div className="card-body">
-                    <div className="report-form">
-                        <form className="row row5" onSubmit={handleSubmit}>
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <div className="react-datepicker-wrapper">
-                                    <div className="react-datepicker__input-container">
-                                        <div className="mb-2 custom-datepicker">
-                                            <input type="text" className="form-control" disabled="" value="11/02/2025" />
-                                            <i className="far fa-calendar"></i>
+                <div className="card">
+                    <div className="card-header">
+                        <h4 className="card-title">Activity Log</h4>
+                    </div>
+                    <div className="card-body">
+                        <div className="report-form">
+                            <form className="row row5" onSubmit={handleSubmit}>
+                                <div className="col-lg-2 col-md-3 col-6">
+                                    <div className="react-datepicker-wrapper">
+                                        <div className="react-datepicker__input-container">
+                                            <div className="mb-2 custom-datepicker">
+                                                <input type="text" className="form-control" disabled="" value="11/02/2025" />
+                                                <i className="far fa-calendar"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <div className="react-datepicker-wrapper">
-                                    <div className="react-datepicker__input-container">
-                                        <div className="mb-2 custom-datepicker">
-                                            <input type="text" className="form-control" disabled="" value="18/02/2025" />
-                                            <i className="far fa-calendar"></i>
+                                <div className="col-lg-2 col-md-3 col-6">
+                                    <div className="react-datepicker-wrapper">
+                                        <div className="react-datepicker__input-container">
+                                            <div className="mb-2 custom-datepicker">
+                                                <input type="text" className="form-control" disabled="" value="18/02/2025" />
+                                                <i className="far fa-calendar"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-2 col-md-3">
-                                <div className="mb-2 input-group position-relative">
-                                    <select
-                                        className="form-select"
-                                        name="type"
-                                        value={selectedType}
-                                        onChange={handleLogTypeChange} // Handle log type change
-                                    >
-                                        <option value="" disabled>Select Log Type</option>
-                                        <option value="login">Login</option>
-                                        <option value="password">Change Password</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-md-2 d-grid">
-                                <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                            </div>
-                        </form>
-                        <div className="row row10 mt-2 justify-content-between">
-                            <div className="col-lg-2 col-6">
-                                <div className="mb-2 input-group position-relative">
-                                    <span className="me-2">Show</span>
-                                    <select className="form-select" value={perPage} onChange={(e) => setPerPage(Number(e.target.value))}>
-                                        <option value="10">10</option>
-                                        <option value="20">20</option>
-                                        <option value="30">30</option>
-                                        <option value="40">40</option>
-                                        <option value="50">50</option>
-                                    </select>
-                                    <span className="ms-2">Entries</span>
-                                </div>
-                            </div>
-
-                            {/* Search Box */}
-                            <div className="col-lg-2 col-6">
-                                <div className="mb-2 input-group position-relative">
-                                    <span className="me-2">Search:</span>
-                                    <input
-                                        type="search"
-                                        className="form-control"
-                                        value={searchQuery}
-                                        onChange={(e) => setSearchQuery(e.target.value)}
-                                        placeholder={`${filteredData.length === 0 ? 0 : filteredData.length} records...`} // Update placeholder based on filtered data
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="mt-2 table-responsive position-relative">
-                            {loading && (
-                                <div id="loader-section">
-                                    <div id="load-inner">
-                                        <i className="fa fa-spinner fa-spin"></i> {/* Corrected className usage */}
+                                <div className="col-lg-2 col-md-3">
+                                    <div className="mb-2 input-group position-relative">
+                                        <select
+                                            className="form-select"
+                                            name="type"
+                                            value={selectedType}
+                                            onChange={handleLogTypeChange} // Handle log type change
+                                        >
+                                            <option value="" disabled>Select Log Type</option>
+                                            <option value="login">Login</option>
+                                            <option value="password">Change Password</option>
+                                        </select>
                                     </div>
                                 </div>
-                            )}
-                            {!loading && filteredData.length > 0 ? (
-                                <table role="table" className="table table-bordered table-striped">
-                                    <thead>
-                                        {getTableHeaders()} {/* Dynamically render table headers */}
-                                    </thead>
-                                    <tbody role="rowgroup">
-                                        {currentData.length > 0 ? (
-                                            currentData.map((item, index) => (
-                                                <tr key={index}>
-                                                    <td role="cell">{item.username}</td>
-                                                    <td role="cell">{item.date}</td>
-                                                    <td role="cell">
-                                                        {item.ip}
-                                                        <i className="fas fa-eye me-2 ms-2"></i>
-                                                    </td>
-                                                    {selectedType === "password" && (
+                                <div className="col-lg-2 col-md-2 d-grid">
+                                    <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                                </div>
+                            </form>
+                            <div className="row row10 mt-2 justify-content-between">
+                                <div className="col-lg-2 col-6">
+                                    <div className="mb-2 input-group position-relative">
+                                        <span className="me-2">Show</span>
+                                        <select className="form-select" value={perPage} onChange={(e) => setPerPage(Number(e.target.value))}>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select>
+                                        <span className="ms-2">Entries</span>
+                                    </div>
+                                </div>
+
+                                {/* Search Box */}
+                                <div className="col-lg-2 col-6">
+                                    <div className="mb-2 input-group position-relative">
+                                        <span className="me-2">Search:</span>
+                                        <input
+                                            type="search"
+                                            className="form-control"
+                                            value={searchQuery}
+                                            onChange={(e) => setSearchQuery(e.target.value)}
+                                            placeholder={`${filteredData.length === 0 ? 0 : filteredData.length} records...`} // Update placeholder based on filtered data
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-2 table-responsive position-relative">
+                                {loading && (
+                                    <div id="loader-section">
+                                        <div id="load-inner">
+                                            <i className="fa fa-spinner fa-spin"></i> {/* Corrected className usage */}
+                                        </div>
+                                    </div>
+                                )}
+                                {!loading && filteredData.length > 0 ? (
+                                    <table role="table" className="table table-bordered table-striped">
+                                        <thead>
+                                            {getTableHeaders()} {/* Dynamically render table headers */}
+                                        </thead>
+                                        <tbody role="rowgroup">
+                                            {currentData.length > 0 ? (
+                                                currentData.map((item, index) => (
+                                                    <tr key={index}>
+                                                        <td role="cell">{item.username}</td>
+                                                        <td role="cell">{item.date}</td>
                                                         <td role="cell">
-                                                            <span
-                                                                style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}
-                                                                data-bs-toggle="tooltip"
-                                                                data-bs-placement="top"
-                                                                title={browserDetails || "No details available"}
-                                                            >
-                                                                Detail
-                                                            </span>
+                                                            {item.ip}
+                                                            <i className="fas fa-eye me-2 ms-2"></i>
                                                         </td>
-                                                    )}
-                                                </tr>
-                                            ))
-                                        ) : (
-                                            <tr><td colSpan="4">No results found</td></tr>
-                                        )}
-                                    </tbody>
-                                </table>
-                            ) : (
+                                                        {selectedType === "password" && (
+                                                            <td role="cell">
+                                                                <span
+                                                                    style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-placement="top"
+                                                                    title={browserDetails || "No details available"}
+                                                                >
+                                                                    Detail
+                                                                </span>
+                                                            </td>
+                                                        )}
+                                                    </tr>
+                                                ))
+                                            ) : (
+                                                <tr><td colSpan="4">No results found</td></tr>
+                                            )}
+                                        </tbody>
+                                    </table>
+                                ) : (
 
-                                <table role="table" className="table table-bordered table-striped">
-                                    <thead>
-                                        {getTableHeaders()} {/* Dynamically render table headers */}
-                                    </thead>
-                                </table>
+                                    <table role="table" className="table table-bordered table-striped">
+                                        <thead>
+                                            {getTableHeaders()} {/* Dynamically render table headers */}
+                                        </thead>
+                                    </table>
 
+                                )}
+                            </div>
+
+
+                            {filteredData.length > 0 && (
+                                <div className="custom-pagination mt-2">
+                                    <div onClick={firstPage} disabled>First</div>
+                                    <div onClick={prevPage} disabled>Previous</div>
+                                    <div onClick={nextPage} disabled>Next</div>
+                                    <div onClick={lastPage}>Last</div>
+                                    <div>
+                                        <span className="me-2">Page <b>{currentPage} of {Math.ceil(filteredData.length / perPage)}</b></span>
+                                        <span className="me-2">| Go to Page</span>
+                                        <input className="form-control" type="number" value={currentPage} onChange={(e) => goToPage(Number(e.target.value))} />
+                                    </div>
+
+                                </div>
                             )}
                         </div>
 
-
-                        {filteredData.length > 0 && (
-                            <div className="custom-pagination mt-2">
-                                <div onClick={firstPage} disabled>First</div>
-                                <div onClick={prevPage} disabled>Previous</div>
-                                <div onClick={nextPage} disabled>Next</div>
-                                <div onClick={lastPage}>Last</div>
-                                <div>
-                                    <span className="me-2">Page <b>{currentPage} of {Math.ceil(filteredData.length / perPage)}</b></span>
-                                    <span className="me-2">| Go to Page</span>
-                                    <input className="form-control" type="number" value={currentPage} onChange={(e) => goToPage(Number(e.target.value))} />
-                                </div>
-
-                            </div>
-                        )}
                     </div>
-
                 </div>
-            </div>
+            </div></div>
         </>
     );
 };

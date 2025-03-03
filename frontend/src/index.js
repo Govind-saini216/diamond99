@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './responsive.css'
-import './custom.css'
+// import './index.css';
+import './responsive.css';
+import './custom.css';
+// import './style.css'
 // import './app.css'
 import App from './App';
 // Add this to your app's entry file, e.g., App.js or index.js

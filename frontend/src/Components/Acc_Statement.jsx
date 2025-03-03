@@ -70,187 +70,169 @@ const AccStatement = () => {
     };
 
     return (
-        <>
-            <div className="card">
-                <div className="card-header">
-                    <h4 className="card-title">Account Statement</h4>
-                </div>
-                <div className="card-body">
-                    <div className="report-form">
-                        <form className="row row5" onSubmit={handleSubmit}>
-                            {/* Start Date Input */}
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <div className="react-datepicker-wrapper">
-                                    <div className="react-datepicker__input-container ">
-                                        <div className='mb-2 custom-datepicker'>
-                                            <input
-                                                type="text"
-                                                className="form-control "
-                                                disabled
-                                                value
-                                            />
-                                            <i
-                                                className="far fa-calendar"
+        <><div className="center-main-container report-page">
+            <div className="center-container">
+                <div className="card">
+                    <div className="card-header">
+                        <h4 className="card-title">Account Statement</h4>
+                    </div>
+                    <div className="card-body">
+                        <div className="report-form">
+                            <form className="row row5" onSubmit={handleSubmit}>
+                                {/* Start Date Input */}
+                                <div className="col-lg-2 col-md-3 col-6">
+                                    <div className="react-datepicker-wrapper">
+                                        <div className="react-datepicker__input-container ">
+                                            <div className='mb-2 custom-datepicker'>
+                                                <input
+                                                    type="text"
+                                                    className="form-control "
+                                                    disabled
+                                                    value
+                                                />
+                                                <i
+                                                    className="far fa-calendar"
 
-                                            ></i>
+                                                ></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="react-datepicker__tab-loop">
-                                    <div class="react-datepicker__tab-loop__start" tabindex="0"></div>
-                                    <div class="react-datepicker-popper" data-placement="bottom-start" style={{ position: "absolute", inset: "0px auto auto 0px", transform: "translate3d(10px, 97px, 0px)" }}>
-                                        <div style={{ display: "contents" }}>
+                                    <div class="react-datepicker__tab-loop">
+                                        <div class="react-datepicker__tab-loop__start" tabindex="0"></div>
+                                        <div class="react-datepicker-popper" data-placement="bottom-start" style={{ position: "absolute", inset: "0px auto auto 0px", transform: "translate3d(10px, 97px, 0px)" }}>
+                                            <div style={{ display: "contents" }}>
 
 
-                                            (
-                                            <div style={{ position: "relative" }}>
-                                                {/* Triangle above the calendar */}
-                                                <div
-                                                    className="react-datepicker__triangle"
-                                                    style={{
-                                                        position: "absolute",
-                                                        // top: "-px", // Adjust this to change the triangle's vertical position
-                                                        left: "87px",
-                                                        transform: "translateX(-50%)", // Centers the triangle above the calendar
-                                                        borderLeft: "10px solid transparent",
-                                                        borderRight: "10px solid transparent",
-                                                        // borderBottom: "10px solid #000", // Change to desired triangle color
-                                                        zIndex: 1, // Ensure triangle is above other elements
-                                                    }}
-                                                ></div>
 
 
                                             </div>
-                                            )
-
                                         </div>
+
+
                                     </div>
 
-
                                 </div>
 
-                            </div>
+                                {/* End Date Input */}
+                                <div className="col-lg-2 col-md-3 col-6">
+                                    <div className="react-datepicker-wrapper">
+                                        <div className="react-datepicker__input-container ">
+                                            <div className='mb-2 custom-datepicker'>
+                                                <input
+                                                    type="text"
+                                                    className="form-control "
+                                                    disabled
+                                                    value
+                                                />
+                                                <i
+                                                    className="far fa-calendar"
 
-                            {/* End Date Input */}
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <div className="react-datepicker-wrapper">
-                                    <div className="react-datepicker__input-container ">
-                                        <div className='mb-2 custom-datepicker'>
-                                            <input
-                                                type="text"
-                                                className="form-control "
-                                                disabled
-                                                value
-                                            />
-                                            <i
-                                                className="far fa-calendar"
-
-                                            ></i>
+                                                ></i>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="react-datepicker__tab-loop">
-                                    <div class="react-datepicker__tab-loop__start" tabindex="0"></div>
-                                    <div class="react-datepicker-popper" data-placement="bottom-start" style={{ position: "absolute", inset: "0px auto auto 0px", transform: "translate3d(277px, 97px, 0px)" }}>
-                                        <div style={{ display: "contents" }}>
+                                    <div class="react-datepicker__tab-loop">
+                                        <div class="react-datepicker__tab-loop__start" tabindex="0"></div>
+                                        <div class="react-datepicker-popper" data-placement="bottom-start" style={{ position: "absolute", inset: "0px auto auto 0px", transform: "translate3d(277px, 97px, 0px)" }}>
+                                            <div style={{ display: "contents" }}>
 
 
 
 
+                                            </div>
                                         </div>
+
+
                                     </div>
 
-
                                 </div>
 
-                            </div>
+                                <div className="col-lg-3 col-md-4">
+                                    <div className="mb-2 input-group position-relative">
+                                        <select
+                                            className="form-select"
+                                            name="type"
+                                            value={selectedType}
+                                            onChange={handleLogTypeChange} // Handle log type change
+                                        >
+                                            <option value="1">Deposite/Withdraw Reports</option>
+                                            <option value="2">Sport Report</option>
+                                            <option value="3">Casino Reports</option>
+                                            <option value="4">Third-Party Casino Reports</option>
+                                        </select>
+                                    </div>
+                                </div>
 
-                            <div className="col-lg-3 col-md-4">
-                                <div className="mb-2 input-group position-relative">
-                                    <select
-                                        className="form-select"
-                                        name="type"
-                                        value={selectedType}
-                                        onChange={handleLogTypeChange} // Handle log type change
-                                    >
-                                        <option value="1">Deposite/Withdraw Reports</option>
-                                        <option value="2">Sport Report</option>
-                                        <option value="3">Casino Reports</option>
-                                        <option value="4">Third-Party Casino Reports</option>
-                                    </select>
+                                <div className="col-lg-2 col-md-2 d-grid">
+                                    <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                                </div>
+                            </form>
+
+                            <div className="row row10 mt-2 justify-content-between">
+                                <div className="col-lg-2 col-6">
+                                    <div className="mb-2 input-group position-relative">
+                                        <span className="me-2">Show</span>
+                                        <select className="form-select">
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select>
+                                        <span className="ms-2">Entries</span>
+                                    </div>
+                                </div>
+
+                                {/* Search Box */}
+                                <div className="col-lg-2 col-6">
+                                    <div className="mb-2 input-group position-relative">
+                                        <span className="me-2">Search:</span>
+                                        <input
+                                            type="search"
+                                            className="form-control"
+                                            value={searchQuery}
+                                            onChange={(e) => setSearchQuery(e.target.value)}
+                                            placeholder={`${filteredData.length === 0 ? 0 : filteredData.length} records...`} // Update placeholder based on filtered data
+                                        />
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-2 col-md-2 d-grid">
-                                <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                            </div>
-                        </form>
-
-                        <div className="row row10 mt-2 justify-content-between">
-                            <div className="col-lg-2 col-6">
-                                <div className="mb-2 input-group position-relative">
-                                    <span className="me-2">Show</span>
-                                    <select className="form-select">
-                                        <option value="10">10</option>
-                                        <option value="20">20</option>
-                                        <option value="30">30</option>
-                                        <option value="40">40</option>
-                                        <option value="50">50</option>
-                                    </select>
-                                    <span className="ms-2">Entries</span>
-                                </div>
-                            </div>
-
-                            {/* Search Box */}
-                            <div className="col-lg-2 col-6">
-                                <div className="mb-2 input-group position-relative">
-                                    <span className="me-2">Search:</span>
-                                    <input
-                                        type="search"
-                                        className="form-control"
-                                        value={searchQuery}
-                                        onChange={(e) => setSearchQuery(e.target.value)}
-                                        placeholder={`${filteredData.length === 0 ? 0 : filteredData.length} records...`} // Update placeholder based on filtered data
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="mt-2 table-responsive">
-                            <table role="table" className="table table-bordered table-striped">
-                                <thead>
-                                    <tr role="row">
-                                        <th colspan="1" role="columnheader" className="report-date">Date</th>
-                                        <th colspan="1" role="columnheader" className="report-sr text-end">Sr no</th>
-                                        <th colspan="1" role="columnheader" className="report-amount text-end">Credit</th>
-                                        <th colspan="1" role="columnheader" className="report-amount text-end">Debit</th>
-                                        <th colspan="1" role="columnheader" className="report-amount text-end">Pts</th>
-                                        <th colspan="1" role="columnheader">Remark</th>
-                                    </tr>
-                                </thead>
-                                <tbody role="rowgroup">
-                                    {filteredData.length > 0 ? (
-                                        filteredData.map((item, index) => (
-                                            <tr key={index}>
-                                                <td>{item.date}</td>
-                                                <td className="text-end">{item.sr}</td>
-                                                <td className="text-end">
-                                                    <span className="text-success">{item.credit}</span>
-                                                </td>
-                                                <td className="text-end">
-                                                    <span className="text-danger">{item.debit}</span>
-                                                </td>
-                                                <td className="text-end">{item.pts}</td>
-                                                <td>{item.remark}</td>
-                                            </tr>
-                                        ))
-                                    ) : (
-                                        <tr>
-                                            <td colSpan="6" className="text-center">No results found</td>
+                            <div className="mt-2 table-responsive">
+                                <table role="table" className="table table-bordered table-striped">
+                                    <thead>
+                                        <tr role="row">
+                                            <th colspan="1" role="columnheader" className="report-date">Date</th>
+                                            <th colspan="1" role="columnheader" className="report-sr text-end">Sr no</th>
+                                            <th colspan="1" role="columnheader" className="report-amount text-end">Credit</th>
+                                            <th colspan="1" role="columnheader" className="report-amount text-end">Debit</th>
+                                            <th colspan="1" role="columnheader" className="report-amount text-end">Pts</th>
+                                            <th colspan="1" role="columnheader">Remark</th>
                                         </tr>
-                                    )}
-                                </tbody>
-                                {/* <tbody role="rowgroup">
+                                    </thead>
+                                    <tbody role="rowgroup">
+                                        {filteredData.length > 0 ? (
+                                            filteredData.map((item, index) => (
+                                                <tr key={index}>
+                                                    <td>{item.date}</td>
+                                                    <td className="text-end">{item.sr}</td>
+                                                    <td className="text-end">
+                                                        <span className="text-success">{item.credit}</span>
+                                                    </td>
+                                                    <td className="text-end">
+                                                        <span className="text-danger">{item.debit}</span>
+                                                    </td>
+                                                    <td className="text-end">{item.pts}</td>
+                                                    <td>{item.remark}</td>
+                                                </tr>
+                                            ))
+                                        ) : (
+                                            <tr>
+                                                <td colSpan="6" className="text-center">No results found</td>
+                                            </tr>
+                                        )}
+                                    </tbody>
+                                    {/* <tbody role="rowgroup">
                                     {currentData.length > 0 ? (
                                         currentData.map((item, index) => (
                                             <tr key={index}>
@@ -278,9 +260,9 @@ const AccStatement = () => {
                                         <tr><td colSpan="4">No results found</td></tr>
                                     )}
                                 </tbody> */}
-                            </table>
-                        </div>
-                        {/* 
+                                </table>
+                            </div>
+                            {/* 
                         <div className="custom-pagination mt-2">
                             <div disabled>First</div>
                             <div disabled>Previous</div>
@@ -292,9 +274,10 @@ const AccStatement = () => {
                                 <input className="form-control" type="number" value="" />
                             </div>
                         </div> */}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div></div>
         </>
     );
 };

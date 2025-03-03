@@ -1,8 +1,8 @@
 
 import React from 'react';
-import fi from '../../../assests/ic_fancy.png';
-import ib from '../../../assests/ic_bm.png';
-import tv from '../../../assests/ic_tv (2).png'
+// import fi from '../../../assests/ic_fancy.png';
+// import ib from '../../../assests/ic_bm.png';
+// import tv from '../../../assests/ic_tv (2).png'
 const Tennis = () => {
 
     const matches = [
@@ -13,11 +13,11 @@ const Tennis = () => {
     return (
         <div className='bg-[#f2f2f2] h-[700px] ml-[7px]  mr-[6px] mt-[5px] font-roboto flex '>
 
-            {/* Game Section */}
+            {/* Game Section
 
             <div className='w-full'>
                 <hr className='border-t-1 border-[#CCCCCC]' />
-                {/* Fixed Header */}
+                {/* Fixed Header 
                 <div className='grid grid-cols-12 bg-[#F7F7F7]'>
 
                     <div className='font-semibold text-[19.111px]  py-[6.5px] pl-[6.1px] tracking-custom col-span-7 '>
@@ -33,7 +33,7 @@ const Tennis = () => {
                 </div>
                 <hr className='border-t-1 border-[#CCCCCC]' />
 
-                {/* Game Data Section */}
+                {/* Game Data Section 
 
                 {matches.map((item, index) => (
                     <div key={index}>
@@ -67,7 +67,7 @@ const Tennis = () => {
                 ))
                 }
 
-            </div>
+            </div> */}
 
         </div>
     );
