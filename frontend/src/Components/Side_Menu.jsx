@@ -184,6 +184,357 @@ const SideMenu = () => {
                                         </li>
                                     </ul>
                                 </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Cricket</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Football</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Tennis</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Table Tennis</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Badminton</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Esoccer</span>
+                                    </a>
+
+                                </li>
+
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Basketball</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Volleyball</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Snooker</span>
+                                    </a>
+
+                                </li>   <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Ice Hockey</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>E Games</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Futsal</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Handball</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Kabaddi</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Golf</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Rugby League</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Boxing</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Beach Volleyball</span>
+                                    </a>
+
+                                </li>
+
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Mixed Martial Arts</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>MotoGP</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Chess</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Cycling</span>
+                                    </a>
+
+                                </li>
+
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Motorbikes</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Athletics</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Basketball 3X3</span>
+                                    </a>
+
+                                </li><li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Sumo</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Virtual sports</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Motor Sports</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Baseball</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Rugby Union</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Darts</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>American Football</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Soccer</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Esports</span>
+                                    </a>
+
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a
+                                        className="dropdown-toggle nav-link"
+                                        onClick={() => toggleDropdown("")}
+                                    >
+                                        <i className="far fa-plus-square me-1"></i>
+                                        <span>Boat Racing</span>
+                                    </a>
+
+                                </li>
                             </ul>
                             {/* More sports can be added here */}
                         </div>

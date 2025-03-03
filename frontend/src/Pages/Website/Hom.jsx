@@ -42,8 +42,784 @@ const Hom = () => {
 
                                                                         <a class="bet-nation-game-name" href="/game-details/4/679712230"><span>Test A v Test B</span><span class="d-none d-md-inline-block">&nbsp;/&nbsp;</span><span>23/02/2025 16:00:00</span></a><div class="game-icons"><div class="game-icon"></div><div class="game-icon"></div><div class="game-icon"><img src={ic_fancy} /></div><div class="game-icon"><img src={ic_bm} /></div><div class="game-icon"></div></div></div><div class="bet-nation-odd d-xl-none"><b>1</b></div><div class="bet-nation-odd d-xl-none"><b>X</b></div><div class="bet-nation-odd d-xl-none"><b>2</b></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>-</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>-</b></span></div></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>-</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>-</b></span></div></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>-</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>-</b></span></div></div></div><div class="bet-table-row"><div class="bet-nation-name">
                                                                             <a class="bet-nation-game-name" href="/game-details/4/731748778"><span>Sri Lanka Masters v West Indies Masters</span><span class="d-none d-md-inline-block">&nbsp;/&nbsp;</span><span>06/03/2025 19:30:00</span></a><div class="game-icons"><div class="game-icon"></div><div class="game-icon"></div><div class="game-icon"></div><div class="game-icon"></div><div class="game-icon"></div></div></div><div class="bet-nation-odd d-xl-none"><b>1</b></div><div class="bet-nation-odd d-xl-none"><b>X</b></div><div class="bet-nation-odd d-xl-none"><b>2</b></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>1.4</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>3.45</b></span></div></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>-</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>-</b></span></div></div><div class="bet-nation-odd"><div class="back odd-box"><span class="bet-odd"><b>1.41</b></span></div><div class="lay odd-box"><span class="bet-odd"><b>26</b></span></div></div></div></div></div></div></div>
-                    <div class="casino-list mt-2"><div class="casino-list-item"><a href="/casino/teen20c"><div class="casino-list-item-banner" style={{ backgroundImage: "url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20c.jpg&quot)" }}, url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Teenpatti C</div></a></div><div class="casino-list-item"><a href="/casino/btable2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/btable2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Bollywood Casino 2</div></a></div><div class="casino-list-item"><a href="/casino/ourroullete"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/ourroullete.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Unique Roulette</div></a></div><div class="casino-list-item"><a href="/casino/superover3"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/superover3.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Mini Superover</div></a></div><div class="casino-list-item"><a href="/casino/goal"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/goal.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Goal</div></a></div><div class="casino-list-item"><a href="/casino/ab4"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/ab4.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">ANDAR BAHAR 150 cards</div></a></div><div class="casino-list-item"><a href="/casino/lucky15"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky15.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Lucky 15</div></a></div><div class="casino-list-item"><a href="/casino/superover2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/superover2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Super Over2</div></a></div><div class="casino-list-item"><a href="/casino/teen41"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen41.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Queen Top Open Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino/teen42"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen42.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Jack Top Open Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino-list/LC/4/31"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette3.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Beach Roulette</div></a></div><div class="casino-list-item"><a href="/casino/sicbo2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/sicbo2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Sic Bo2</div></a></div><div class="casino-list-item"><a href="/casino-list/LC/4/31"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Golden Roulette</div></a></div><div class="casino-list-item"><a href="/casino/teen33"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen33.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Instant Teenpatti 3.0</div></a></div><div class="casino-list-item"><a href="/casino/sicbo"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/sicbo.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Sic Bo</div></a></div><div class="casino-list-item"><a href="/casino/ballbyball"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/ballbyball.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Ball by Ball</div></a></div><div class="casino-list-item"><a href="/casino/teen32"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen32.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Instant Teenpatti 2.0</div></a></div><div class="casino-list-item"><a href="/casino-list/LC/4/31"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette1.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Roulette BL</div></a></div><div class="casino-list-item"><a href="/casino/teen"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Teenpatti 1-day</div></a></div><div class="casino-list-item"><a href="/casino/teen20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino/teen9"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen9.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Teenpatti Test</div></a></div><div class="casino-list-item"><a href="/casino/teen8"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen8.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Teenpatti Open</div></a></div><div class="casino-list-item"><a href="/casino/poker"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/poker.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Poker 1-Day</div></a></div><div class="casino-list-item"><a href="/casino/poker20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/poker20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Poker</div></a></div><div class="casino-list-item"><a href="/casino/poker6"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/poker6.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Poker 6 Players</div></a></div><div class="casino-list-item"><a href="/casino/baccarat"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/baccarat.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Baccarat</div></a></div><div class="casino-list-item"><a href="/casino/baccarat2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/baccarat2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Baccarat 2</div></a></div><div class="casino-list-item"><a href="/casino/dt20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/dt20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Dragon Tiger</div></a></div><div class="casino-list-item"><a href="/casino/dt6"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/dt6.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">1 Day Dragon Tiger</div></a></div><div class="casino-list-item"><a href="/casino/dtl20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/dtl20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 D T L</div></a></div><div class="casino-list-item"><a href="/casino/dt202"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/dt202.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Dragon Tiger 2</div></a></div><div class="casino-list-item"><a href="/casino/card32"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/card32.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">32 Cards A</div></a></div><div class="casino-list-item"><a href="/casino/card32eu"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/card32eu.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">32 Cards B</div></a></div><div class="casino-list-item"><a href="/casino/ab20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/ab20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Andar Bahar</div></a></div><div class="casino-list-item"><a href="/casino/abj"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/abj.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Andar Bahar 2</div></a></div><div class="casino-list-item"><a href="/casino/lucky7"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Lucky 7 - A</div></a></div><div class="casino-list-item"><a href="/casino/lucky7eu"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7eu.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Lucky 7 - B</div></a></div><div class="casino-list-item"><a href="/casino/3cardj"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/3cardj.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">3 Cards Judgement</div></a></div><div class="casino-list-item"><a href="/casino/war"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/war.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Casino War</div></a></div><div class="casino-list-item"><a href="/casino/worli"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/worli.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Worli Matka</div></a></div><div class="casino-list-item"><a href="/casino/worli2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/worli2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Instant Worli</div></a></div><div class="casino-list-item"><a href="/casino/aaa"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/aaa.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Amar Akbar Anthony</div></a></div><div class="casino-list-item"><a href="/casino/btable"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/btable.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Bollywood Casino</div></a></div><div class="casino-list-item"><a href="/casino/lottcard"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/lottcard.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Lottery</div></a></div><div class="casino-list-item"><a href="/casino/cricketv3"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/cricketv3.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">5Five Cricket</div></a></div><div class="casino-list-item"><a href="/casino/cmatch20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/cmatch20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Cricket Match 20-20</div></a></div><div class="casino-list-item"><a href="/casino/cmeter"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/cmeter.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Casino Meter</div></a></div><div class="casino-list-item"><a href="/casino/teen6"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen6.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Teenpatti - 2.0</div></a></div><div class="casino-list-item"><a href="/casino/queen"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/queen.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Queen</div></a></div><div class="casino-list-item"><a href="/casino/race20"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/race20.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Race20</div></a></div><div class="casino-list-item"><a href="/casino/lucky7eu2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7eu2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Lucky 7 - C</div></a></div><div class="casino-list-item"><a href="/casino/superover"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/superover.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Super Over</div></a></div><div class="casino-list-item"><a href="/casino/trap"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/trap.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">The Trap</div></a></div><div class="casino-list-item"><a href="/casino/patti2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/patti2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">2 Cards Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino/teensin"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teensin.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">29Card Baccarat</div></a></div><div class="casino-list-item"><a href="/casino/teenmuf"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teenmuf.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Muflis Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino/race17"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/race17.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Race To 17</div></a></div><div class="casino-list-item"><a href="/casino/teen20b"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20b.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">20-20 Teenpatti B</div></a></div><div class="casino-list-item"><a href="/casino/trio"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/trio.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Trio</div></a></div><div class="casino-list-item"><a href="/casino/notenum"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/notenum.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Note Number</div></a></div><div class="casino-list-item"><a href="/casino/kbc"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/kbc.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">K.B.C</div></a></div><div class="casino-list-item"><a href="/casino/teen120"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen120.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">1 CARD 20-20</div></a></div><div class="casino-list-item"><a href="/casino/teen1"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen1.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">1 CARD ONE-DAY</div></a></div><div class="casino-list-item"><a href="/casino-list/LC/4/31"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Roulette</div></a></div><div class="casino-list-item"><a href="/casino/ab3"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/ab3.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">ANDAR BAHAR 50 cards</div></a></div><div class="casino-list-item"><a href="/casino/aaa2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/aaa2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Amar Akbar Anthony 2</div></a></div><div class="casino-list-item"><a href="/casino/race2"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/race2.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Race to 2nd</div></a></div><div class="casino-list-item"><a href="/casino/teen3"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/teen3.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Instant Teenpatti</div></a></div><div class="casino-list-item"><a href="/casino/dum10"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/dum10.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">Dus ka Dum</div></a></div><div class="casino-list-item"><a href="/casino/cmeter1"><div class="casino-list-item-banner" style="background-image: url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/lc/cmeter1.jpg&quot;), url(&quot;https://dataobj.ecoassetsservice.com/casino-icons/default.jpg&quot;);"></div><div class="casino-list-name">1 Card Meter</div></a></div></div>
-        </div ></div >
+
+
+                    <div class="casino-list mt-2">
+                        <div class="casino-list-item">
+                            <a href="/casino/teen20c">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20c.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">20-20 Teenpatti C</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/btable2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/teen20c">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/ourroullete.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">20-20 Teenpatti C</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/superover3.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/goal.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/ab4.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky15.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/superover2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen41.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen42.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette3.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/sicbo2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen33.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/sicbo.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/ballbyball.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen32.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette1.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen9.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen8.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/poker.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/poker20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/poker6.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/baccarat.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/baccarat2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/dt20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/dt6.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/dtl20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/dt202.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/card32.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/card32eu.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/ab20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/abj.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/teen20c">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">20-20 Teenpatti C</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7eu.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/teen20c">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/3cardj.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">20-20 Teenpatti C</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/war.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/worli.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/worli2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/aaa.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/btable.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/lottcard.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/cricketv3.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/cmatch20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/cmeter.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen6.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/queen.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/race20.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/lucky7eu2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/superover.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/trap.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/patti2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teensin.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teenmuf.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/race17.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen20b.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/trio.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/notenum.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/kbc.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen120.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen1.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/roulette.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/ab3.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/aaa2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/race2.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/teen3.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/dum10.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+                        <div class="casino-list-item">
+                            <a href="/casino/btable2">
+                                <div class="casino-list-item-banner" style={{
+                                    backgroundImage: `url("https://dataobj.ecoassetsservice.com/casino-icons/lc/cmeter1.jpg"), 
+                      url("https://dataobj.ecoassetsservice.com/casino-icons/default.jpg")`,
+
+                                }}>
+                                </div>
+                                <div class="casino-list-name">Bollywood Casino 2</div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div >
+            </div >
 
         </>
     );
