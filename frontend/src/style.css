@@ -2308,13 +2308,13 @@ tr {
 .header-top {
     background-color: var(--bg-primary);
     color: var(--text-primary);
-    padding: 7px 15px;
+    padding: 4px 8px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 79px;
+    height: 73px;
 }
 
 .header-top .logo-header img {
@@ -2659,7 +2659,7 @@ tr {
     min-height: calc(100vh - 169px);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 /*Main Container Design Ends*/
@@ -2898,7 +2898,7 @@ tr {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 4px;
     /* background: var(--bg-primary); */
     background-color: transparent;
     padding: 0;
@@ -2950,17 +2950,17 @@ tr {
 .latest-event-item {
     flex: 1;
     max-width: 100%;
-    min-width: calc(20% - 10px);
+    min-width: calc(20% - 4px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 4px;
     background: var(--bg-secondary);
-    margin-right: 5px;
+    margin-right: 4px;
     border-radius: 0;
     color: var(--text-secondary);
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 /* .latest-event-item:last-child {
@@ -11260,12 +11260,6 @@ div {
     unicode-bidi: isolate;
 }
 
-.main-container {
-    /* min-height: calc(100vh - 169px); */
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px;
-}
 
 .center-main-container {
     width: calc(100% - 280px);

@@ -362,6 +362,8 @@ const Heade = () => {
                     </a>
 
                 </div>
+                    <div class="news"><marquee scrollamount="3">Now live casinos, Everyday Live sports and Famous fantasy games available on most trusted and oldest exchange. Play to win big.</marquee></div>
+                    <div class="depowith"><div class="d-xl-none d-flex justify-content-center"></div></div>
                 </div>
                 {/* Modal for Set Button Values */}
                 {/* Modal for Set Button Values */}
